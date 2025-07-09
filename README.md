@@ -22,7 +22,7 @@ Backed up files are stored in the `User/` folder.
 
 ---
 
-## ♻️ Restore on a New Machine
+## Restore on a New Machine
 
 To restore your VSCode configuration on a new system:
 
@@ -32,13 +32,13 @@ To restore your VSCode configuration on a new system:
 
 Make sure the `code` CLI is available on your path.
 
-> 💡 To enable the `code` command from VSCode:  
+> To enable the `code` command from VSCode:  
 > Open VSCode → Press `Ctrl+Shift+P` → Run:  
 > `Shell Command: Install 'code' command in PATH`
 
 ---
 
-## ✅ OS Compatibility
+## OS Compatibility
 
 | OS        | Supported? | Notes |
 |-----------|------------|-------|
@@ -48,7 +48,7 @@ Make sure the `code` CLI is available on your path.
 
 ---
 
-## 📁 What Gets Backed Up
+## What Gets Backed Up
 
 | File/Folder            | Description                             |
 |------------------------|-----------------------------------------|
@@ -59,7 +59,7 @@ Make sure the `code` CLI is available on your path.
 
 ---
 
-## 📦 Setup with GitHub
+## etup with GitHub
 
 To track and sync your config across machines, set up a Git repo:
 
@@ -74,7 +74,7 @@ gh repo create vscode-backup --private --source=. --remote=origin --push
 
 ---
 
-## 🛠 Tips
+## Tips
 
 - Consider automating backups with a cron job (Linux/macOS) or Task Scheduler (Windows).
 - Always ensure VSCode is closed before restoring settings to avoid overwrites.
@@ -82,7 +82,7 @@ gh repo create vscode-backup --private --source=. --remote=origin --push
 
 ---
 
-## 🔐 Optional: Encrypt Settings Before Upload
+## Encrypt Settings Before Upload
 
 If you're backing up sensitive snippets or settings, consider encrypting the backup with `gpg`:
 
